@@ -1,0 +1,32 @@
+[
+    {
+        "nama": "Sulthon",
+        "umur": 21,
+        "nim": "2100018213",
+        "lulus": false,
+        "hobby": [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing": {
+            "pembimbing1": "dosen satu",
+            "pambimbing2": "dosen dua"
+        }
+
+    },
+    {
+        "nama": "Mufti",
+        "umur": 21,
+        "nim": "2100018213",
+        "lulus": false,
+        "hobby": [
+            "bola",
+            "lari"
+        ],
+        "pembimbing": {
+            "pembimbing1": "dosen tiga",
+            "pambimbing2": "dosen empat"
+        }
+
+    }
+]
