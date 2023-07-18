@@ -12,22 +12,45 @@
   </head>
   <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width="120">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled">Disabled</a>
-      </div>
+  <nav class="navbar navbar-expand-lg navber-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="120">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home</a>
+            </div>
+        </div>
     </div>
 </nav>
+
+<div class="container">
+
+    <div class="row" mt-3>
+        <div class="col">
+            <h1>All Menu</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="img/menu/american-favourite.jpg" class="card-img-top">
+                <div class="card">
+                    <h5 class="card-title">American Favourite</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Rp.60.000</h5>
+                    <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 
 
