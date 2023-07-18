@@ -1,3 +1,13 @@
+<?php
+
+$data = file_get_contents('data/pizza.json');
+$menu = json_decode($data, true);
+
+var_dump($menu)
+
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
